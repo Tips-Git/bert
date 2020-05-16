@@ -23,9 +23,7 @@ import json
 import math
 import os
 import random
-import modeling
-import optimization
-import tokenization
+from bert import optimization, tokenization, modeling
 import six
 import tensorflow as tf
 
